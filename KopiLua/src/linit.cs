@@ -14,10 +14,10 @@ namespace KopiLua
 	{
 		private readonly static LuaLReg[] lualibs = {
 		  new LuaLReg("", LuaOpenBase),
-		  new LuaLReg(LUA_LOADLIBNAME, LuaOpenPackage),
+		  // new LuaLReg(LUA_LOADLIBNAME, LuaOpenPackage),
 		  new LuaLReg(LUA_TABLIBNAME, luaopen_table),
-		  new LuaLReg(LUA_IOLIBNAME, LuaOpenIo),
-		  new LuaLReg(LUA_OSLIBNAME, LuaOpenOS),
+		  // new LuaLReg(LUA_IOLIBNAME, LuaOpenIo),
+		  // new LuaLReg(LUA_OSLIBNAME, LuaOpenOS),
 		  new LuaLReg(LUA_STRLIBNAME, luaopen_string),
 		  new LuaLReg(LUA_MATHLIBNAME, LuaOpenMath),
 		  new LuaLReg(LUA_DBLIBNAME, LuaOpenDebug),
